@@ -1,0 +1,60 @@
+/* .* { */
+/*     margin: 5rem 5rem 5rem 5rem; */
+/*     width: 100%; */
+/* } */
+
+body, html {
+    padding-top: 5rem;
+    background-color: #333e4f !important;
+    color: #f5efd3 !important;
+    font-size: 16px !important;
+}
+.big-text {
+    font-weight: bolder;
+    font-size: 65px;
+    margin: 20px 0;
+    color: #bf2112;
+}
+.bgimg {
+    width: 50%;
+    min-width: 300px;
+    max-width: 300px;
+}
+.sub-text {
+    font-size: 35px;
+    margin: 20px 0;
+    color: #f5efd3 !important;
+}
+.lnbox {
+    padding: 50px;
+}
+
+.srvlogo {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.card {
+    border: 2px solid #f5efd3;
+    border-radius: 3rem!important; 
+    box-shadow: 0 1rem 3rem #222 !important;
+    margin: 0px 10px 10px 10px;
+}
+.bg-dark{
+    background-color: #333e4f !important;
+}
+.prodcont {
+    box-shadow: 0 3rem 3rem rgba(0,0,0,.175)!important;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.contshadow {
+    box-shadow: 0 3rem 3rem rgba(0,0,0,.175)!important;
+    padding-bottom: 3rem;
+}
+.pgdivider {
+    box-shadow: 0 3rem 3rem rgba(0,0,0,.175)!important;
+    margin: 0 !important;
+    padding; 0 !important;
+}
