@@ -66,11 +66,13 @@ body {
     padding; 0 !important;
 }
 .lnbtndesc {
-    font-size: 100%;
+    font-size: 20;
 }
 .lnbtn {
     font-size: 150%;
     font-weight: bold;
     background: #bf2112;
     box-shadow: 0 1rem 3rem #222 !important;
+    border: 0px;
+    border-radius: 12px !important;
 }
