@@ -3,8 +3,8 @@
 /*     width: 100%; */
 /* } */
 
-body, html {
-    padding-top: 5rem;
+body {
+    padding-top: 50px;
     background-color: #333e4f !important;
     color: #f5efd3 !important;
     font-size: 16px !important;
@@ -14,6 +14,7 @@ body, html {
     font-size: 65px;
     margin: 20px 0;
     color: #bf2112;
+    text-shadow: 5px 5px 5px #000;
 }
 .bgimg {
     width: 50%;
@@ -24,21 +25,26 @@ body, html {
     font-size: 35px;
     margin: 20px 0;
     color: #f5efd3 !important;
+    text-shadow: 5px 5px 5px #000;
 }
 .lnbox {
     padding: 50px;
 }
-
+.lncont {
+    max-width: 95%;
+}
 .srvlogo {
-    width: 100%;
+    width: 80%;
+    height: 80%;
     display: block;
     text-align: center;
 }
 .card {
-    border: 2px solid #f5efd3;
+    /*border: 2px solid #f5efd3;*/
     border-radius: 3rem!important; 
     box-shadow: 0 1rem 3rem #222 !important;
     margin: 0px 10px 10px 10px;
+    max-width: 200px;
 }
 .bg-dark{
     background-color: #333e4f !important;
@@ -50,11 +56,21 @@ body, html {
     padding-right: 2rem;
 }
 .contshadow {
+
     box-shadow: 0 3rem 3rem rgba(0,0,0,.175)!important;
-    padding-bottom: 3rem;
+    padding-bottom: 50px;
 }
 .pgdivider {
     box-shadow: 0 3rem 3rem rgba(0,0,0,.175)!important;
     margin: 0 !important;
     padding; 0 !important;
+}
+.lnbtndesc {
+    font-size: 100%;
+}
+.lnbtn {
+    font-size: 150%;
+    font-weight: bold;
+    background: #bf2112;
+    box-shadow: 0 1rem 3rem #222 !important;
 }
