@@ -12,20 +12,23 @@ body {
 .big-text {
     font-weight: bolder;
     font-size: 65px;
-    margin: 20px 0;
     color: #bf2112;
     text-shadow: 5px 5px 5px #000;
 }
 .bgimg {
     width: 50%;
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 160px;
+    max-width: 160px;
 }
 .sub-text {
     font-size: 35px;
-    margin: 20px 0;
+    margin: 10px 0;
     color: #f5efd3 !important;
     text-shadow: 5px 5px 5px #000;
+}
+.lnminbox {
+    padding: 25px;
+    padding-bottom: 0;
 }
 .lnbox {
     padding: 50px;
